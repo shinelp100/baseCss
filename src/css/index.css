@@ -1,0 +1,27 @@
+body {
+  background-color: red;
+}
+/** 公共样式提取 **/
+body {
+  background-color: #f3f3f3;
+  color: #878d95;
+}
+.ctn-area {
+  width: 1000px;
+  margin: 0 auto;
+}
+/**********************我是分割线*************************/
+/** 自定义变量 **/
+/** 字体大小 **/
+/** 字体颜色 **/
+/** 背景颜色 **/
+/** margin值 **/
+/** :hover **/
+/**********************我是分割线*************************/
+.test {
+  font-size: 14px;
+  color: #f96;
+}
+.test:hover {
+  color: #000;
+}

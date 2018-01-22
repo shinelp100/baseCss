@@ -1,0 +1,69 @@
+/** 公共样式提取 **/
+body {
+  background-color: #f3f3f3;
+  color: #878d95;
+}
+.ctn-area {
+  width:1000px;
+  margin: 0 auto;
+}
+
+/**********************我是分割线*************************/
+/** 自定义变量 **/
+@area1000:1000px;
+@area1200:1200px;
+@mainBtn: #ff6707;
+@mainBtnOn: #ff532d;
+@contentC1: #434a54;
+@contentC2: #878d95;
+@contentC3: #aab2bd;
+@webBg: #f3f3f3;
+@webLine: #f1f1f1;
+@endSell: #d5d5d8;
+@Selling: #419bf9;
+@loginC: #ffdb31;
+@fs60: 60px;
+@fs30: 30px;
+@fs18: 18px;
+@fs36: 36px;
+@fs22: 22px;
+@fs16: 16px;
+@fs14: 14px;
+
+/** 字体大小 **/
+.fz(@x:14px){
+  font-size:@x;
+}
+
+/** 字体颜色 **/
+.cl(@x:#878d95){
+  color: @x;
+}
+
+/** 背景颜色 **/
+.bgc(@x:#f3f3f3){
+  background-color: @x;
+}
+
+/** margin值 **/
+.mgt(@x){
+  margin-top: @x;
+}
+.mgr(@x){
+  margin-left: @x;
+}
+.mgl(@x){
+  margin-right: @x;
+}
+.mgb(@x){
+  margin-bottom: @x;
+}
+
+/** :hover **/
+.hover(@x,@y){
+  color: @x;
+  &:hover {
+    color: @y;
+  }
+}
+/**********************我是分割线*************************/
