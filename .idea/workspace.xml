@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa51182-aaac-4efe-9263-04e31a24ccc3" name="Default" comment="base css 文件规范">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/css/css-util.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/css/normalize.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/index.min.css" afterPath="$PROJECT_DIR$/src/css/index.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/css/base.less" afterPath="$PROJECT_DIR$/src/libs/css/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/css/base.min.css" afterPath="$PROJECT_DIR$/src/libs/css/base.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,12 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalize.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="normalize.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/libs/css/normalize.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
               <caret line="252" column="32" lean-forward="false" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="174">
+                <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -115,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/index.less" />
         <option value="$PROJECT_DIR$/src/libs/css/color.less" />
         <option value="$PROJECT_DIR$/src/libs/css/font-size.less" />
@@ -128,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/libs/css/base.less" />
         <option value="$PROJECT_DIR$/src/libs/css/css-static.less" />
         <option value="$PROJECT_DIR$/src/libs/css/normalize.less" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -141,7 +148,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="7" />
     <option name="width" value="1394" />
@@ -187,21 +194,7 @@
               <item name="baseCss" type="b2602c69:ProjectViewProjectNode" />
               <item name="baseCss" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index.less" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="baseCss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baseCss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="baseCss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baseCss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -252,7 +245,7 @@
       <workItem from="1516613053656" duration="69000" />
       <workItem from="1516613127895" duration="5208000" />
       <workItem from="1516669787672" duration="983000" />
-      <workItem from="1516670837785" duration="9862000" />
+      <workItem from="1516670837785" duration="10548000" />
     </task>
     <task id="LOCAL-00001" summary="base css 文件规范">
       <created>1516612713642</created>
@@ -272,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16526000" />
+    <option name="totallyTimeSpent" value="17212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,7 +277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="7" width="1394" height="916" extended-state="6" />
+    <frame x="1912" y="7" width="1394" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -465,16 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="29">
-            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1914">
@@ -585,6 +568,17 @@
         <state relative-caret-position="92">
           <caret line="252" column="32" lean-forward="false" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="174">
+            <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
