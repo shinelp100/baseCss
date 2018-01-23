@@ -1,27 +1,233 @@
-body {
-  background-color: red;
+/** 基础公共样式 **/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
-/** 公共样式提取 **/
 body {
+  font: 14px/1.5 'Microsoft YaHei', Helvetica, Arial, sans-serif;
   background-color: #f3f3f3;
   color: #878d95;
+  padding: 0;
+  margin: 0;
+}
+.c-container {
+  width: 1000px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+input,
+textarea {
+  border: 0;
+}
+input {
+  border-radius: 0;
+  outline: none;
+  width: 100%;
+}
+i,
+em,
+u {
+  font-style: normal;
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+.lf {
+  float: left;
+}
+.rg {
+  float: right;
+}
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+/*  遮罩  */
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  z-index: 100000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  line-height: 1.5em;
+}
+.overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pomp {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
 }
 .ctn-area {
   width: 1000px;
   margin: 0 auto;
 }
-/**********************我是分割线*************************/
+/** 悬浮框的位置 **/
+.popup-window {
+  position: fixed;
+  top: 520px;
+  right: 0;
+}
+/*****************************我是分割线**************************************/
 /** 自定义变量 **/
+/** 引入公共样式方法**/
 /** 字体大小 **/
 /** 字体颜色 **/
 /** 背景颜色 **/
 /** margin值 **/
 /** :hover **/
 /**********************我是分割线*************************/
-.test {
-  font-size: 14px;
-  color: #f96;
+/** 字体大小 **/
+.fz60 {
+  font-size: 60px;
 }
-.test:hover {
-  color: #000;
+.fz36 {
+  font-size: 36px;
+}
+.fz30 {
+  font-size: 30px;
+}
+.fz22 {
+  font-size: 22px;
+}
+.fz18 {
+  font-size: 18px;
+}
+.fz16 {
+  font-size: 16px;
+}
+.fz14 {
+  font-size: 14px;
+}
+/** 字体颜色 **/
+.fz-orange {
+  color: #ff6707;
+}
+.fz-orange-deep {
+  color: #ff532d;
+}
+.fz-black {
+  color: #434a54;
+}
+.fz-gray-deep {
+  color: #878d95;
+}
+.fz-gray {
+  color: #aab2bd;
+}
+.fz-blue {
+  color: #419bf9;
+}
+/** 背景色 **/
+.bgc-orange {
+  background-color: #ff6707;
+}
+.bgc-f3 {
+  background-color: #f3f3f3;
+}
+.bgc-f1 {
+  background-color: #f1f1f1;
+}
+.bgc-d5 {
+  background-color: #d5d5d8;
+}
+.bgc-yellow {
+  background-color: #ffdb31;
+}
+/** 按钮背景色 **/
+.btn-invest {
+  color: #ff6707;
+}
+.btn-invest:hover {
+  color: #ff532d;
+}
+.btn-register {
+  color: #ffdb31;
+}
+.btn-register:hover {
+  color: #e7c72c;
+}
+/** hover是颜色变化 **/
+.header-hover {
+  color: #aab2bd;
+}
+.header-hover:hover {
+  color: #ff6707;
+}
+.footer-hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+.footer-hover:hover {
+  color: #ff6707;
+}
+/** 固定的margin值 **/
+.mgt50 {
+  margin-top: 50px;
+}
+.mgr30 {
+  margin-top: 30px;
+}
+.mgt20 {
+  margin-top: 20px;
+}
+.test {
+  font-size: 16px;
 }
