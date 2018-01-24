@@ -1,5 +1,5 @@
 @import "./normalize";
-@import "./css-static";
+@import "./css-constant";
 @import "./css-util";
 
 /** 基础公共样式 **/
@@ -16,7 +16,7 @@ body{
   padding:0;
   margin: 0;
 }
-.c-container {
+.ctcf-container {
   width: 1000px;
   margin: 0 auto;
   overflow-x: hidden;
@@ -101,8 +101,8 @@ a:hover,a:visited,a:active,a:link {
   text-decoration: none;
 }
 
-/** 悬浮框的位置 **/
-.popup-window {
+/** 悬浮工具条的位置 **/
+.popup-toolbar {
   position: fixed;
   top:520px;
   right:0;
@@ -114,11 +114,17 @@ a:hover,a:visited,a:active,a:link {
 .fz60 {
   .fz(@fz60)
 }
+.fz42 {
+  .fz(@fz42)
+}
 .fz36 {
   .fz(@fz36)
 }
 .fz30 {
   .fz(@fz30)
+}
+.fz24 {
+  .fz(@fz24)
 }
 .fz22 {
   .fz(@fz22)
@@ -132,19 +138,22 @@ a:hover,a:visited,a:active,a:link {
 .fz14 {
   .fz(@fz14)
 }
+.fz12 {
+  .fz(@fz12)
+}
 
 /** 字体颜色 **/
 .fz-orange {
   .cl(@orange)
 }
-.fz-orange-deep {
-  .cl(@orange-deep)
+.fz-orange-strong {
+  .cl(@orange-strong)
 }
 .fz-black {
-  .cl(@gray-more-deep)
+  .cl(@gray-more-strong)
 }
-.fz-gray-deep {
-  .cl(@gray-deep)
+.fz-gray-strong {
+  .cl(@gray-strong)
 }
 .fz-gray {
   .cl(@gray)
@@ -172,10 +181,10 @@ a:hover,a:visited,a:active,a:link {
 
 /** 按钮背景色 **/
 .btn-invest {
-  .hover(@orange,@orange-deep)
+  .hover(@orange,@orange-strong)
 }
 .btn-register {
-  .hover(@yellow,@yellow-deep)
+  .hover(@yellow,@yellow-strong)
 }
 
 /** hover是颜色变化 **/
