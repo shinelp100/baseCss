@@ -1,0 +1,11 @@
+@import "./css-constant";
+@a: box-shadow;
+@params:@a;
+
+.@{params} {
+    @{webkit}-@{params}: 0 1px 10px rgba(0,0,0,.17);
+    @{moz}-@{params}: 0 1px 10px rgba(0,0,0,.17);
+    @{o}-@{params}: 0 1px 10px rgba(0,0,0,.17);
+    @{ms}-@{params}: 0 1px 10px rgba(0,0,0,.17);
+    @{params}: 0 1px 10px rgba(0,0,0,.17);
+}
